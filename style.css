@@ -213,7 +213,7 @@ body {
         margin: 0px;
         font-weight: bolder; 
     }
-    #second-container-right #second-container-bright{
+    #second-container-right, #second-container-bright{
         flex-basis: 50%;  
     }
     #second-container-button {
@@ -235,16 +235,20 @@ body {
     #bottom-container {
         display: flex;
         width: 100%;
+        height: 100%;
         margin: 30px 0px 0px 0px;
         padding: 0px;  
     } 
-    #bottom-container-1 #bottom-container-2 {
-        flex-basis: 33%;
-        height: 100%;
+    #bottom-container-1, #bottom-container-2 {
+        flex-basis: 33.3%;
+        height: 100px;
+        padding-right: 40px;
     }
     #bottom-container-3 {
-        flex-basis: 33%;
-        height: 80%;
+        flex-basis: 33.3%;
+        height: 100px;       
     }
-    
+    #bottom-container-3 img {
+        height: 90%;
+    }
 }
